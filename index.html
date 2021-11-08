@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">School Webite</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#name">School Name</a></li>
+                <li><a href="#campus">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#newstuff">What's New</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueeStyle" scrollamount="10" direction="right" onmouseover="this.stop();" onmouseout="this.start();">
+            <h4>
+                ***Feel free to ask queries about anything on admin.cbsenerul@podar.org***
+            </h4>
+        </marquee>
+    </div>
+    <img src="PIS.jpg" width="100%">
+
+    <div class="container">
+        <div class="container">
+            <!--Campus Life-->
+            <div class="page-header" id="campus">
+                <h2 class="text-capitalize">Campus Life</h2>
+
+                <div class="row">
+                    <!--1st Campus Life-->
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="CompLab.jpg">
+                        <h4 class="text-capitalize"><kbd>Computer Lab</kbd></h4>
+                        <hr>
+
+                        <p class="text-muted text-left">
+
+
+                            The age of technology is upon us and it is becoming increasingly difficult for someone to function without a knowledge of computers. At Podar International School, we realize this and have a state-of-the-art computer lab in the school premises. The computer lab is air-conditioned with the adequate number of latest PCs which have all the required software installed. All PCs have a high-speed internet connection. The lab is specially designed to educate the students with the latest technology so that the children get comfortable with technology at a very young age.</p>
+                    </div>
+                    <!--2nd Campus Life-->
+                    <div class="travel_mainDiv">
+                        <!--Give appropriate class below for the image img-responsive-->
+                        <img class="img-responsive" src="Playground.jpg">
+                        <h4 class="text-capitalize"><kbd>Sports Ground</kbd></h4>
+                        <hr>
+
+                        <p class="text-muted text-left">
+
+
+                            Our school has a state of the art playground where New Age, as well as traditional sports, are played. We have sports for all age groups so that children can relax and exercise at the same time with a sporting spirit. The school has appointed a trained Physical Training Master to train the children in various indoor games like chess and carrom and outdoor games like football, volleyball, basketball etc. We encourage students to participate in all sports events.</p>
+
+                    </div>
+                    <!--3rd Campus life-->
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" src="cafeteria.jpg">
+                        <h4 class="text-capitalize"><kbd>School Canteen</kbd></h4>
+                        <hr>
+                        <!-- Give text-muted below to show the text in grey color-->
+                        <p class="text-left text-muted">
+
+
+                            The schools offer an optional canteen facility for its students. The Food that is served in the canteen is hygienic and healthy.</p>
+                    </div>
+
+                </div>
+            </div>
+            <!--Achievements-->
+            <div class="page-header" id="achievements">
+                <h2 class="text-capitalize">school achievements</h2>
+            </div>
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+                Most Distinguished International School Network of the Year - Education Excellence Awards - 2020-21 <i class="fa fa-sort-desc"></i>
+            </div>
+            <!--1st Achievement-->
+            <div id="school_achievement1" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                    <img src="certificate1.jpg" class="img-responsive img-thumbnail">
+                </div>
+
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">Won the certificate of the Most Distinguished International School Network of the Year
+                    </h5>
+                </div>
+            </div>
+            <!--2nd Achievement-->
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+                Best Practices In Developmentally Appropriate Use Of Technology- ECA Award 2018-19<i class="fa fa-sort-desc"></i>
+            </div>
+
+            <div id="school_achievement2" class="collapse">
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+
+                    <img id="achieve2" src="award2.webp">
+                </div>
+
+                <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <h5 class="text-success text-left text-capitalize">Won an award for 'Best Practices In Developmentally Appropriate Use Of Technology - ECA Award 2018-19'.
+                    </h5>
+
+                </div>
+            </div>
+
+            <!--3rd Achievement--->
+
+            <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+                Outstanding Educational Network in India - Global Choice Award - 2019-20<i class="fa fa-sort-desc"></i>
+            </div>
+
+            <div id="school_achievement3" class="collapse">
+                <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+                <div class="" id="achievementsID">
+                    <img id="achieve3" src="certificateAward3.webp" class="img-responsive img-thumbnail">
+                </div>
+
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-left text-success text-capitalize">Won an award and a certificate for achieving 'Outstanding Educational Network in India'
+                    </h5>
+
+                </div>
+            </div>
+
+        </div>
+
+        
+
+    
+    <div class="container">
+        <!--What's New Section-->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="newstuff">
+            <h2 class="text-capitalize ">What's New</h2>
+        </div>
+
+        <ul class="list-group">
+            
+            <li class="list-group-item-success  col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>Classroom technology</h4>
+                <img src="ClassTechno.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text">
+
+
+                    Each classroom is equipped with a projector and a visualizer. Certain topics are taught with the help of this technology so as to make learning an interactive and immersive experience for the students.</p>
+                <p>
+
+
+The school building of Podar International School has been specially designed to give it a contemporary, stylish and international look. It is a huge building within a sprawling campus. The classrooms are well ventilated with whiteboards and flannel boards to provide an ideal sanctum for academic progress to take place.</p>
+            </li>
+            <!-- Add bootstrap class list-group-item-warning for red color BG-->
+            <li class="list-group-item-warning  col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>COUNSELLING</h4>
+                <P>The Inclusive Education Cell (IEC) at Podar Group of Schools was set up with the primary aim of facilitating needs of children with various learning, behavioural and emotional concerns which they face during their course of development.
+
+                </P>
+
+                <img src="counselling.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                   
+                    <br>
+                    IEC functions not only to assist special need children but also looks into each and every child's learning, behavioural and emotional issues in their day to day life. The goal is to emphasize on the holistic development of students and their support groups in particular and promoting school mental health in general.</p>
+                
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"> <br>IEC works towards sensitizing, awareness building and educating wellness teachers, school teachers, peers and parents towards dealing with their children in this challenging and exigent environment.</p>
+               
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"><br>Our school has a counsellor that is available to help the students deal with their problems and make their school days happy. Our School counsellors are regularly in touch with the IEC department in formulating strategies for the school counselling, psychometric testing, treatment plan and workshops, etc, all working towards the goal of Inclusion for diverse learners.</p>
+
+            </li>
+        </ul>
+    </div>
+    <!--Contacts section begins-->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
+
+            <div id="map" class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.145254581117!2d73.00790191490023!3d19.0133199871239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c39bc4f86307%3A0x54aa6e7d3be0912d!2sPodar%20International%20School%20seawoods!5e0!3m2!1sen!2sin!4v1633774764614!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+            <div style="float: right;" id="details" class="col-lg-3 col-md-4 col-sm-5 col-xs-12">
+                <img src="https://www.clipartmax.com/png/small/5-54833_source-principal-of-a-school.png" class="img-responsive img-circle">
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-4">
+                <h3>Principal Name: </h3>
+                <h4>Soma Chatterjee</h4>
+
+                <div class="contact_1">
+                    <a href="mailto:admin.cbsenerul@podar.org?Subject=Good Day to you!" target="_blank">
+                        <h5><i class="fa fa-envelope">&nbsp;&nbsp;admin.cbseneryl@podar.org</i></h5>
+                    </a>
+
+                    <a href="https://www.instagram.com/podarinternationalschoolib/?hl=en" target="_blank">
+                        <h5><i class="fa fa-instagram">&nbsp;&nbsp;podarinternationalschoolib</i></h5>
+                    </a>
+
+                    <a href="https://www.facebook.com/PIS4NerulCBSE/posts/pis-cbse-nerulwork-education-activity-first-aid-kit-conducted-in-pis-nerul-cbse-/2058749537753541/" target="_blank">
+                        <h5><i class="fa fa-facebook">&nbsp;&nbsp;PIS4NerulCBSE</i></h5>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
